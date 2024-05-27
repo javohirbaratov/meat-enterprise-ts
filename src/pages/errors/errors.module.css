@@ -1,0 +1,22 @@
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 14px;
+    flex-direction: column;
+}
+
+.content img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-family: 'Poppins',sans-serif;
+    color: #282c34;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}

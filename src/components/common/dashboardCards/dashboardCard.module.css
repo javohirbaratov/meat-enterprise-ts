@@ -1,0 +1,10 @@
+.card {
+  padding: 24px 14px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #505469;
+  padding: 1rem;
+}

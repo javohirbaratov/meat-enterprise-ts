@@ -1,0 +1,48 @@
+.productCard {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 15px;
+  background: #f0f2f5;
+  width: 100%;
+  max-width: 450px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+
+  border: 2px solid transparent;
+}
+
+.productCard.selected {
+  border-color:#5473ff;
+}
+
+.productCardBody {
+  flex-grow: 1;
+}
+
+.productCardTitle {
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 140%;
+  color: #747c85;
+}
+.productCardPrefix {
+  font-size: 16px;
+  font-weight: 400;
+}
+.productCardCaption {
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: #747c85;
+  opacity: 0.4;
+}

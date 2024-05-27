@@ -1,0 +1,23 @@
+.checkedIcon {
+  max-width: 100px;
+}
+.checkedIcon svg {
+  width: 100%;
+}
+
+.finishTitle {
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.finishCaption {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #747c85;
+}

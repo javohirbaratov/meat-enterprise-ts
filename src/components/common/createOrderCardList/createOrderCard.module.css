@@ -1,0 +1,92 @@
+/* Card */
+.createOrderCard {
+  display: flex;
+  gap: 10px;
+  padding: 4px;
+  width: 100%;
+  align-items: center;
+  z-index: 0;
+  border-bottom: 1px solid #e8eaee;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+  cursor: pointer;
+
+  transition: transform 0.1s ease-in-out;
+}
+
+.createOrderCard.clickAction:active {
+  transform: scale(0.96);
+}
+
+/* Icon */
+.createOrderCardIcon {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #e8eaee;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #747c85;
+}
+
+.createOrderCardContent {
+  width: calc(100% - 42px);
+}
+/* Body */
+.createOrderCardBody {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.createOrderCardBodyUser {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #000000;
+}
+.createOrderCardVolume {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.createOrderCardVolumeTitle,
+.createOrderCardVolumePrefix {
+  color: #3bbe92;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+}
+.createOrderCardVolumePrefix {
+  color: #979797;
+  font-size: 12px;
+}
+/* Footer */
+.createOrderCardFooter {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.createOrderCardPhone {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 140%;
+  color: #747c85;
+}
+.createOrderCardCaption {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 140%;
+  color: #747c85;
+}

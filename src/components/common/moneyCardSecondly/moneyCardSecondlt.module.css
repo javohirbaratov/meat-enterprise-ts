@@ -1,0 +1,26 @@
+.card {
+  background: #5473FF;
+  border-radius: 16px;
+  padding: 34px 20px;
+}
+
+.cardTitle{
+  font-family: 'Poppins',sans-serif;
+  font-size: 34px;
+  line-height: 140%;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.cardTitle small{
+  font-size: 16px;
+  opacity: 0.4;
+}
+.cardCaption{
+  font-family: 'Poppins',sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: bold;
+  color: white;
+  opacity: 0.4;
+}

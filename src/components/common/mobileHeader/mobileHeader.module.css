@@ -1,0 +1,21 @@
+.headerContent{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.headerContentItem {
+  width: 50%;
+}
+.headerContentItem:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.headerContentTitle {
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+  font-size: 17px;
+  color: #3BBE92;
+  padding: 0 2px;
+}

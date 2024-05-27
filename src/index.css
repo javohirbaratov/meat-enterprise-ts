@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #F8FAFB;
+}
+
+/* MUI */
+.MuiBottomNavigationAction-label {
+  font-size: 11px!important;
+}
+
+.react-tel-input .flag-dropdown  {
+  /* display: none; */
+}
+.react-tel-input .form-control  {
+  padding: 4px!important;
+}
+
+/* ==========================
+    PRINT
+=============================*/
+.printContainer {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  max-width: 303px;
+  width: 100%;
+  visibility: hidden;
+  transform: translate(-50%, 0);
+  text-align: center;
+  width: 302.36px;
+  background: #fff;
+  padding: 10px;
+}
+.printTable {
+  font-weight: bold;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse !important;
+}
+
+.printTable th,
+.printTable td {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.printCheckTable {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-collapse: collapse !important;
+}
+
+.printTable,
+.printTable th {
+  border-collapse: collapse !important;
+  font-size: 10px;
+  text-align: left;
+  background: #fff;
+}
+.printTable.border th,
+.printTable.border td {
+  outline: 1px solid #7c7c7c;
+}
+
+.printTable.borderRow th,
+.printTable.borderRow td {
+  border-top: 1px solid #7c7c7c;
+}
+.printTable th,
+.printTable td {
+  padding: 2px;
+}
+.printItem {
+  display: none;
+}
+.printCheckItem {
+  word-wrap: break-word;
+  width: 36px;
+}
+@media print {
+  .body {
+    visibility: hidden;
+  }
+  .printContainer {
+    padding: 2rem;
+    visibility: visible;
+  }
+  .printItem {
+    display: block;
+  }
+}
